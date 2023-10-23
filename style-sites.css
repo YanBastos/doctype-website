@@ -85,13 +85,10 @@ a {
 }
 
 .cards-container {
-    width: 100%;
-
-   
-    padding: 50px;
-
+    width: 80%;
     display: flex;
     flex-wrap: wrap;
+    margin:50px auto;
 }
 
 .card {
@@ -101,6 +98,6 @@ a {
 }
 
 .card img {
-   width: 100%;
-   max-width: 400px;
+    width: 100%;
+    max-width: 400px;
 }

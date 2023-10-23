@@ -7,16 +7,13 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #f3f3f3;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
-/* ==== LINKS ==== */
-
-/* ==== NAV ==== */
 
 /* NAVBAR */
 
@@ -27,9 +24,9 @@ html {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    position: fixed;
     list-style-type: none;
     overflow: hidden;
+    background-color: #000;
 }
 
 .navbar-items ul,
@@ -81,4 +78,29 @@ a {
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+#project {
+    width: 100%;
+}
+
+.cards-container {
+    width: 100%;
+
+   
+    padding: 50px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: solid #000 1px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.card img {
+   width: 100%;
+   max-width: 400px;
 }

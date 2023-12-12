@@ -100,7 +100,8 @@
                         <p>Sua própria vitrine online</p>
                     </li>
                 </ul>
-                <a class="reasons-button" href="https://api.whatsapp.com/send?phone=5551992908052&text=Olá, gostaria de receber informações">
+                <a class="reasons-button"
+                    href="https://api.whatsapp.com/send?phone=5551992908052&text=Olá, gostaria de receber informações">
                     <p>Solicitar informações</p>
                 </a>
             </div>
@@ -133,6 +134,48 @@
 
         </div>
     </section>
+
+    <!-- CONTATO - CONTACT -->
+    <section id="Contato">
+
+        <div class="headline">
+            <h2>CONTATO</h2>
+        </div>
+        <section class="contact">
+            <form id="form" action="https://formsubmit.co/yandoctype@gmail.com" method="post">
+                <div class="nameID">
+                    <label for="">Nome:</label>
+                    <input type="text" placeholder="seu nome" name="nome" required>
+                </div>
+                <div class="emailID">
+                    <label for="">Email:</label>
+                    <input type="email" placeholder="seu email" name="email">
+                </div>
+                <div class="telID">
+                    <label for="">Telefone:</label>
+                    <input type="text" placeholder="(xx)xxxx-xxxx" name="tel" required>
+                </div>
+                <div class="submitID">
+                    <!-- <textarea id="" cols="30" rows="10" placeholder="escreva sua mensagem" name="message"
+                        required></textarea> -->
+                    <input id="submit" type="submit" value="Enviar" onclick="send()">
+                </div>
+                <div class="butID">
+                    <a class="fbw"
+                    href="https://api.whatsapp.com/send?phone=5551992908052&text=Olá, gostaria de receber informações">
+                    <p>Solicitar informações</p>
+                </a>    
+                </div>
+            </form>
+        </section>
+
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
     <script src="index.js"></script>
 
 </body>

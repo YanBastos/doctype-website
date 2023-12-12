@@ -416,6 +416,86 @@ header {
     cursor: pointer;
 }
 
+.contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-img {
+    width: 100%;
+}
+
+.form-img {
+    width: 100%;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+}
+
+label {
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.nameID,
+.emailID,
+.telID,
+.butID {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.butID a{
+    background-color: #3ae700;
+    color: #fff;
+    padding: 10px;
+    height: 50px;
+}
+
+input {
+    height: 50px;
+    background-color: #f1f1f1;
+    border: #000 solid 1px;
+    padding: 10px;
+}
+
+.submitID {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    gap: 20px;
+    width: 80%;
+}
+
+#submit:hover {
+    color: #fff;
+    border: 0px;
+    background-color: #FF9100;
+    transition: .5s;
+}
+
+#Contato {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+
 @media screen and (max-width : 768px) {
     .reasons-container{
         width: 100%;

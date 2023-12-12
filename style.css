@@ -459,12 +459,24 @@ label {
     flex-direction: column;
     width: 80%;
 }
+.reasons-button {
+    color: #fff;
+    text-decoration: none;
+    background-color: #FF9100;
+    text-align: center;
+    width: 100%;
+}
+.reasons-button p {
+    text-align: center;
+}
 
 .butID a{
-    background-color: #3ae700;
+    background-color: #FF9100;
+    font-weight: 600;
     color: #fff;
     padding: 10px;
-    height: 50px;
+    margin: 0;
+    height: 50px; 
 }
 
 input {
